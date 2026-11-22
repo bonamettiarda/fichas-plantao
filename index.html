@@ -5607,6 +5607,12 @@ try{const s=JSON.parse(store.get('fp_pt')||'null'); if(s){$('#peso').value=s.w;$
 $('#mode-ubs').addEventListener('click',()=>{ if(ecgOn()){ location.hash='inicio'; } setMode('ubs'); });
 $('#mode-pa').addEventListener('click',()=>{ if(ecgOn()){ location.hash='inicio'; } setMode('pa'); });
 $('#mode-ecg').addEventListener('click',()=>{ location.hash='ecg'; });
+/* ECG só aparece dentro do Claude (onde a leitura por foto funciona). No site e no arquivo offline fica escondido. */
+function inClaude(){ try{ return !!(window.claude && window.claude.use); }catch(e){ return false; } }
+(function ecgGate(){ const b=$('#mode-ecg'); const show=v=>{ b.style.display=v?'':'none'; };
+  show(inClaude()); let n=0;
+  const t=setInterval(()=>{ if(inClaude()){ show(true); clearInterval(t); return; }
+    if(++n>=24){ clearInterval(t); show(false); if(decodeURIComponent(location.hash.slice(1))==='ecg') location.hash='inicio'; } },250); })();
 setMode(mode,true);
 citySelectInit(); (function(){const av=document.getElementById('aviso');if(av&&store.get('fp_aviso')!=='1'){av.hidden=false;document.getElementById('aviso-ok').onclick=()=>{store.set('fp_aviso','1');av.hidden=true;};}})(); ptChip(); buildNav(); route();
 
