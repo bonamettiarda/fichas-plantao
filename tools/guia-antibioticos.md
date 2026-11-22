@@ -2,7 +2,7 @@
 
 **Uso profissional. Não substitui o julgamento clínico, a bula nem o protocolo da CCIH do serviço.** Antes de prescrever, conferir dose, peso, função renal, alergias e gestação.
 
-- **Versão:** 22/11/2026.
+- **Versão:** 22/11/2026 (auditado em 22/11/2026: IDSA 2025 de ITU complicada, ESC 2023, IDSA 2024, CDC 2021).
 - **Base:** diretrizes nacionais e internacionais (PCDT/MS, IDSA, ATS/IDSA, ESC, SSC, AAP; lista na seção 8). As doses são de adulto com função renal normal, salvo indicação. **Pediatria: sempre por peso, com dupla checagem.**
 - **Disponibilidade:** a coluna "Goioerê" usa a REMUME 2022 de Goioerê (lista antiga; confirmar na farmácia).
   - ✓ = dispensado na Farmácia Básica Central e na Vila Guaíra;
@@ -64,7 +64,8 @@ Escalonar = ampliar o espectro **para cobrir um germe específico** que o esquem
 | Fator de risco para Pseudomonas: doença pulmonar estrutural, internação ou ATB IV nos últimos 90 dias, colonização prévia, neutropenia, grande queimado | Pseudomonas | ceftriaxona → **cefepime** ou **piperacilina-tazobactam** (meropenem se houver risco de ESBL) |
 | Fator de risco para MRSA: colonização prévia, droga EV, serviço com > 20% de MRSA, pus em celulite, pneumonia necrotizante | MRSA | **+ vancomicina** (linezolida na pneumonia ou na IRA; VO: SMX-TMP) |
 | Cultura com **ESBL**, ou alto risco (ATB recente, internação, colonização) | ESBL | **carbapenêmico** (ertapenem se não houver risco de Pseudomonas; meropenem se houver) |
-| Enterobacter, Serratia, Citrobacter, Morganella (AmpC) | AmpC induzível | **cefepime** (ou carbapenêmico) |
+| Enterobacter, K. aerogenes, C. freundii (AmpC de risco moderado) | AmpC induzível | **cefepime** (ou carbapenêmico) |
+| Serratia, Morganella, Providencia (AmpC de baixo risco, IDSA 2024) | baixo risco de indução | **ceftriaxona** ou pip-tazo se sensível; cefepime só se piorar |
 | Infecção biliar, ITU com sonda, endocardite, falha com cefalosporina | **enterococo** (a cefalosporina não cobre) | **+ ampicilina** (ou vancomicina se for resistente) |
 | Meningite em > 50 anos, imunossuprimido, etilista, gestante ou RN | **Listeria** | **+ ampicilina 2 g 4/4h** |
 | Abscesso, odor pútrido, aspiração com dente ruim, abdome | anaeróbio | **+ metronidazol** (ou beta-lactâmico com inibidor, ou carbapenêmico) |
@@ -110,7 +111,7 @@ Drogas com ótima biodisponibilidade: **quinolonas, SMX-TMP, metronidazol, linez
 | Infecção | Duração |
 |---|---|
 | Cistite | 3 dias (nitrofurantoína: 5; fosfomicina: dose única) |
-| Pielonefrite | 7 dias (cipro) a 10–14 dias (beta-lactâmico) |
+| Pielonefrite e ITU complicada (IDSA 2025) | 5–7 dias (quinolona) ou 7 dias (outro ATB), se houver melhora (antes: 10–14 dias de beta-lactâmico) |
 | PAC | 5–7 dias |
 | PAH/PAV | 7 dias |
 | Celulite ou erisipela | 5 dias (estender se não melhorar) |
@@ -120,7 +121,7 @@ Drogas com ótima biodisponibilidade: **quinolonas, SMX-TMP, metronidazol, linez
 | Colecistite operada cedo | 1–3 dias; colangite drenada: 4–5 dias |
 | Faringite estreptocócica | 10 dias (benzatina em dose única; azitromicina, 5 dias) |
 | OMA no adulto | 5–7 dias (10 se grave) |
-| Bacteremia por BGN | 7–14 dias |
+| Bacteremia por BGN | 7 dias se houver melhora e foco controlado (inclusive na ITU com bacteremia, IDSA 2025); 14 se não |
 | **Bacteremia por S. aureus** | **≥ 14 dias após a 1ª hemocultura negativa** (4–6 semanas se complicada) |
 | Candidemia | 14 dias após a 1ª hemocultura negativa |
 | Meningite | meningococo 7; Hib 7–10; pneumococo 10–14; Listeria 21 |
@@ -143,7 +144,7 @@ Drogas com ótima biodisponibilidade: **quinolonas, SMX-TMP, metronidazol, linez
 | **Enterococo R a vanco** | **VRE** | **linezolida ou daptomicina** |
 | **Enterobactéria R a ceftriaxona, S a cefoxitina** | **ESBL** | **carbapenêmico**; piperacilina-tazobactam só em ITU leve em melhora. **Não usar cefalosporina nem cefepime, mesmo que o laudo diga "sensível"** |
 | Enterobactéria R a ceftriaxona e **R a cefoxitina, S a cefepime** | **AmpC** | **cefepime** ou carbapenêmico |
-| Enterobactéria **R a carbapenêmico** | carbapenemase (KPC, NDM, OXA) | **CCIH**: ceftazidima-avibactam (KPC/OXA-48), polimixina B, amicacina, tigeciclina. **O carbapenêmico não cobre KPC. Ceftolozano-tazobactam não cobre KPC nem NDM** |
+| Enterobactéria **R a carbapenêmico** | carbapenemase (KPC, NDM, OXA) | **CCIH**: ceftazidima-avibactam (KPC/OXA-48), meropenem-vaborbactam ou imipenem-relebactam (KPC); NDM: ceftazidima-avibactam + aztreonam. Polimixina B, amicacina e tigeciclina só se não houver alternativa (IDSA 2024). **O carbapenêmico não cobre KPC. Ceftolozano-tazobactam não cobre KPC nem NDM** |
 | Pseudomonas R a uma única droga (ex.: só meropenem) | perda de porina ou bomba de efluxo | evitar aquela droga; usar outra classe ativa |
 
 **(Por que Enterobacter "sensível à ceftriaxona" pode falhar:** a AmpC é induzível. Na infecção grave, preferir cefepime.)
@@ -201,7 +202,7 @@ Drogas com ótima biodisponibilidade: **quinolonas, SMX-TMP, metronidazol, linez
 | **Glicopeptídeos** | parede (Gram+) | vanco = MRSA. **VO só para C. difficile.** Monitorar AUC ou vale. Teicoplanina não entra no SNC | nefrotoxicidade (pior com pip-tazo e aminoglicosídeo); "síndrome do homem vermelho" → reduzir a velocidade de infusão + anti-histamínico (não suspender) |
 | **Linezolida** | 50S | MRSA e VRE; **melhor que a vanco no pulmão**; VO = IV; não nefrotóxica | **mielossupressão** (> 2 semanas), neuropatia, **síndrome serotoninérgica com ISRS** |
 | **Daptomicina** | membrana | MRSA, VRE, endocardite, osso | **inativada pelo surfactante: não serve para pneumonia**; CPK |
-| **Tetraciclinas** | 30S | doxiciclina: atípicos, MRSA VO, riquétsias, leptospirose | fotossensibilidade; esofagite; **contraindicada na gestação e em criança < 8 anos** |
+| **Tetraciclinas** | 30S | doxiciclina: atípicos, MRSA VO, riquétsias, leptospirose | fotossensibilidade; esofagite; **contraindicada na gestação**; em criança < 8 anos, a doxiciclina por até 21 dias é permitida (AAP), as outras tetraciclinas não |
 | **Metronidazol** | anaeróbios | abdome, C. difficile, vaginose, tricomoníase, giárdia | **efeito antabuse com álcool**; potencializa a varfarina; neuropatia; gosto metálico |
 | **Clindamicina** | 50S | anaeróbios acima do diafragma, MRSA de comunidade, **antitoxina** (choque tóxico, fasceíte) | **maior risco de C. difficile** |
 | **SMX-TMP** | folato | ITU (se a resistência local for baixa), MRSA de pele, Pneumocystis, toxoplasma, nocardia | rash e **SJS**; hipercalemia; IRA; citopenias; evitar no 1º e no 3º trimestre |
@@ -257,9 +258,9 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 |---|---|---|---|
 | **Cistite não complicada** (mulher não grávida) | **nitrofurantoína 100 mg 6/6h** ou fosfomicina 3 g dose única | 5 d / DU | nitrofurantoína ✓; fosfomicina ✗ |
 | Cistite (alternativas) | SMX-TMP 800/160 mg 12/12h (se a resistência local for < 20%); norfloxacino | 3 d | **SMX-TMP 400/80: 2 cp 12/12h** ✓ |
-| **Pielonefrite ambulatorial** | **ceftriaxona 1 g IV ou IM (dose inicial)** + **ciprofloxacino 500 mg 12/12h** | 7 d (cipro) / 10–14 d (beta-lactâmico) | ceftriaxona ✓; cipro ✓ |
-| Pielonefrite internada | ceftriaxona 1 g/dia IV; se houver risco de ESBL: ertapenem ou meropenem | 7–14 d | — |
-| ITU complicada ou com sonda (hospitalar) | cobrir Pseudomonas, enterococo e ESBL conforme o risco | 7–14 d | trocar a sonda |
+| **Pielonefrite ambulatorial** | **ceftriaxona 1 g IV ou IM (dose inicial)** + **ciprofloxacino 500 mg 12/12h** | 5–7 d (cipro) / 7 d (beta-lactâmico), se melhorar (IDSA 2025) | ceftriaxona ✓; cipro ✓ |
+| Pielonefrite internada | ceftriaxona 1 g/dia IV; se houver risco de ESBL: ertapenem ou meropenem; passar para VO pela cultura assim que melhorar | 7 d (5–7 se quinolona) | — |
+| ITU complicada ou com sonda (hospitalar) | cobrir Pseudomonas, enterococo e ESBL conforme o risco e as culturas prévias; descalonar pela cultura | 7 d se melhorar (IDSA 2025) | trocar a sonda |
 | Gestante (ITU ou bacteriúria) | **cefalexina 500 mg 6/6h** ou amoxicilina conforme o antibiograma; **evitar quinolona**; nitrofurantoína fora do termo | 7 d | ✓ |
 | Candidúria sintomática ou de risco | fluconazol 200–400 mg/dia | 14 d | fluconazol só 150 mg ✓ |
 
@@ -308,7 +309,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 |---|---|---|
 | **ICS relacionada a cateter** | **vancomicina + antipseudomonas** (cefepime, pip-tazo ou meropenem); ajustar à flora local | **retirar o cateter** se houver S. aureus, Pseudomonas, Candida, sepse, pus no óstio ou bacteremia > 72 h |
 | **S. aureus na hemocultura** | MSSA: oxacilina ou cefazolina; MRSA: vanco | **ECO (de preferência transesofágico)**, hemoculturas de controle, ≥ 14 d após a negativação |
-| **Endocardite comunitária** (valva nativa ou prótese > 1 ano) | **ampicilina 12 g/dia + oxacilina 12 g/dia + gentamicina 3 mg/kg/dia** | 4–6 sem. **Tirar a gentamicina se for S. aureus em valva nativa (ESC 2023)** |
+| **Endocardite comunitária** (valva nativa ou prótese > 1 ano) | **ampicilina 12 g/dia + ceftriaxona 4 g/dia** (em 2 doses), **ou** ampicilina 12 g/dia + oxacilina 12 g/dia + gentamicina 3 mg/kg/dia (ESC 2023) | 4–6 sem. **Tirar a gentamicina se for S. aureus em valva nativa (ESC 2023)** |
 | Endocardite hospitalar ou prótese < 1 ano | **vancomicina + gentamicina + rifampicina** | ≥ 6 sem; cirurgia se houver IC, abscesso, vegetação > 10 mm com embolia, ou bacteremia > 5–7 d |
 | **Candidemia** | **equinocandina** → fluconazol | retirar o cateter, fundo de olho, ECO; 14 d após a negativação |
 
@@ -333,10 +334,10 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 |---|---|---|
 | **DIP ambulatorial** | **ceftriaxona 500 mg IM DU + doxiciclina 100 mg 12/12h + metronidazol 500 mg 12/12h, por 14 d** | ceftriaxona 500 IM ✓; metronidazol ✓ (2 cp); **doxiciclina ✗** (prescrever para compra) |
 | DIP hospitalar | ceftriaxona 1 g/dia + doxiciclina + metronidazol IV; ou clindamicina + gentamicina | 🏥 |
-| Parceria na DIP | ceftriaxona 500 mg IM + azitromicina 1 g VO DU (PCDT/CDC) | ✓ |
+| Parceria na DIP | ceftriaxona 500 mg IM + azitromicina 1 g VO DU (PCDT/MS; o CDC 2021 prefere doxiciclina 100 mg 12/12h por 7 d para clamídia) | ✓ |
 | **Vaginose bacteriana** | **metronidazol 500 mg 12/12h por 7 d** ou gel vaginal por 5 noites; **não tratar a parceria** | ✓ |
 | **Candidíase vulvovaginal** | **miconazol creme vaginal por 7 noites** ou **fluconazol 150 mg DU**; **gestante: só via vaginal** | ✓ |
-| **Tricomoníase** | **metronidazol 2 g DU** (8 cp de 250 mg) ou 500 mg 12/12h por 7 d; **tratar a parceria** | ✓ |
+| **Tricomoníase** | mulher: **metronidazol 500 mg 12/12h por 7 d** (preferido pelo CDC 2021) ou 2 g DU (8 cp de 250 mg); homem: 2 g DU; **tratar a parceria** | ✓ |
 | Corioamnionite | **interromper a gestação** + clindamicina + gentamicina, ou ampicilina + gentamicina + metronidazol | 🏥 |
 | **Profilaxia de EGB intraparto** | penicilina G cristalina 5 milhões UI + 2,5 milhões UI 4/4h (ou ampicilina 2 g + 1 g 4/4h); alergia: cefazolina 2 g + 1 g 8/8h | 🏥 |
 | Endometrite puerperal | **gentamicina + clindamicina**; sem melhora em 48 h: **+ ampicilina** | 🏥 |
@@ -351,7 +352,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 | **OMA** | **amoxicilina 50–90 mg/kg/dia** (90 se creche, ATB < 3 meses ou não vacinado) | amoxicilina-clavulanato **90 mg/kg/dia** (de amoxicilina; AAP) se usou beta-lactâmico < 30 d ou tem conjuntivite purulenta → sem melhora em 48–72 h: **ceftriaxona 50 mg/kg IM por 3 d** | 5–10 d |
 | Mastoidite | ampicilina-sulbactam, cefuroxima ou ceftriaxona IV + miringotomia | OMC: cefepime + metronidazol | 2–4 sem |
 | **ITU afebril** | nitrofurantoína 5–7 mg/kg/dia | — | 3–5 d |
-| **ITU febril** | VO: cefuroxima, amoxicilina-clavulanato ou SMX-TMP (**evitar cefalexina**); IV: gentamicina ou ceftriaxona 50 mg/kg/dia | pelo antibiograma; **USG se não melhorar em 48 h** | 7–10 d |
+| **ITU febril** | VO: cefuroxima, amoxicilina-clavulanato, SMX-TMP ou cefalexina (opção da AAP; alguns serviços evitam por resistência local); IV: gentamicina ou ceftriaxona 50 mg/kg/dia | pelo antibiograma; **USG se não melhorar em 48 h** | 7–10 d |
 | **Pneumonia** | **amoxicilina 50–90 mg/kg/dia** | febre após 48–72 h → RX → < 5 anos: amoxicilina-clavulanato ou cefuroxima; ≥ 5 anos: macrolídeo | 5 d |
 | Pneumonia internada | vacinação completa: **penicilina cristalina 200.000 UI/kg/dia**; incompleta: ceftriaxona 50–100 mg/kg/dia | suspeita de S. aureus (pneumatocele, empiema): oxacilina ou vanco | — |
 | **Meningite** | **ceftriaxona 100 mg/kg/dia + vancomicina 15 mg/kg/dose 6/6h** + dexametasona (Hib) | < 3 meses: + ampicilina | 5–14 d conforme o germe |
@@ -399,7 +400,8 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 | Cefepime na alergia à penicilina | "cadeia similar" | cadeia lateral parecida com a da ceftriaxona |
 | OMA pediátrica com amoxicilina-clavulanato | 50 mg/kg/dia | 90 mg/kg/dia (AAP 2013) |
 | Ceftriaxona na pielonefrite | 1–2 g 12/12h | 1 g 1x/dia |
+| Duração da pielonefrite com beta-lactâmico | 10–14 dias | 7 dias se houver melhora (IDSA 2025) |
 | Azitromicina para a parceria na DIP | 500 mg | 1 g (PCDT/CDC) |
 
 ## 8. Fontes
-IDSA/ATS 2019 (PAC); IDSA/ATS 2016 (PAH/PAV); IDSA 2010 (cistite e pielonefrite); IDSA 2014 (pele e partes moles); IDSA/SHEA 2017 e 2021 (C. difficile); IDSA 2009 (ICS por cateter); IDSA 2016 (candidíase); IDSA 2024 (guidance de Gram− resistentes); ESC 2023 (endocardite); SSC 2026 (sepse); Tóquio 2018 (vias biliares); ACCP 2000 e BTS 2023 (derrame pleural); AAP 2013 (OMA); AAAAI/ACAAI 2022 (alergia a fármacos); PCDT IST/MS; ESCMID 2016 e IDSA 2004 (meningite); STOP-IT (NEJM 2015); MERINO (JAMA 2018); CAPE COD (NEJM 2023). REMUME Goioerê 2022.
+IDSA/ATS 2019 (PAC); IDSA/ATS 2016 (PAH/PAV); IDSA 2010 (cistite); IDSA 2025 (ITU complicada, inclui pielonefrite); IDSA 2014 (pele e partes moles); IDSA/SHEA 2017 e 2021 (C. difficile); IDSA 2009 (ICS por cateter); IDSA 2016 (candidíase); IDSA 2024 (guidance de Gram− resistentes); ESC 2023 (endocardite); SSC 2026 (sepse); Tóquio 2018 (vias biliares); ACCP 2000 e BTS 2023 (derrame pleural); AAP 2013 (OMA); AAAAI/ACAAI 2022 (alergia a fármacos); PCDT IST/MS; CDC 2021 (IST); ESCMID 2016 e IDSA 2004 (meningite); STOP-IT (NEJM 2015); MERINO (JAMA 2018); CAPE COD (NEJM 2023). REMUME Goioerê 2022.
