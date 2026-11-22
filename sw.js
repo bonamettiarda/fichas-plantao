@@ -1,5 +1,5 @@
-// Fichas de Plantão — service worker (versão 202611221744)
-const C='fichas-202611221744', ARQ=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','guia-atb.html'];
+// Fichas de Plantão — service worker (versão 202611221750)
+const C='fichas-202611221750', ARQ=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','guia-atb.html'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(ARQ))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{const r=e.request; if(r.method!=='GET') return;

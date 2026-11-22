@@ -116,6 +116,7 @@ body.ecg-on main{max-width:none;padding:0}
 .ecgframe{display:block;width:100%;border:0;height:calc(100vh - var(--hh,61px));min-height:640px;background:var(--bg)}
 body.ecg-on #ch-fab,body.ecg-on #ch-panel{display:none!important}
 body.sem-claude #ch-fab,body.sem-claude #ch-pan{display:none!important}
+body.sem-claude .fs-ask,body.sem-claude .fs-askor{display:none!important}
 .modechip{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);margin-bottom:6px}
 .fig{margin:0}.fig svg{width:100%;max-width:560px;height:auto;display:block;font-family:var(--f-body)}.fig figcaption{font-size:13px;color:var(--muted);margin-top:6px;max-width:70ch}
 .tabs{flex-wrap:wrap}
@@ -2454,7 +2455,7 @@ function fichaSearchInit(){
     if(tit.length) h+=`<section class="card"><h3>Fichas <span class="cnt">${tit.length}</span></h3><ul>${tit.map(r=>lnk(r[0])).join('')}</ul></section>`;
     if(txt.length) h+=`<section class="card"><h3>Citado no texto de <span class="cnt">${txt.length}</span></h3><ul>${txt.slice(0,25).map(r=>lnk(r[0],`<div class="fs-s">${snip(r[0].text,words[0])}</div>`)).join('')}</ul>${txt.length>25?'<p class="muted">Mostrando 25; refine a busca.</p>':''}</section>`;
     if(others.length) h+=`<section class="card"><h3>Outros conteúdos <span class="cnt">${others.length}</span></h3><ul>${others.slice(0,15).join('')}</ul></section>`;
-    res.innerHTML=h||`<p class="muted">Nada encontrado para “${fsE(raw)}”. Tente outro termo ou <a href="#" class="fs-askq">pergunte às fichas</a>.</p>`;
+    res.innerHTML=h||`<p class="muted">Nada encontrado para “${fsE(raw)}”. Tente outro termo<span class="fs-askor"> ou <a href="#" class="fs-askq">pergunte às fichas</a></span>.</p>`;
   };
   q.addEventListener('input',draw);
   const ask=()=>{ if(window.openChat) window.openChat(q.value.trim()); };
@@ -5285,6 +5286,7 @@ function renderFicha(id){
   const hasInt=!!INTERN[f.num];
   let html=`<article>`;
   html+=`<span class="modechip">${mode==='ubs'?'UBS':'Pronto atendimento'}${inMode(f)?'':' · fora da lista deste local'}</span>`;
+  if(f===FICHAS[0]&&typeof fichaSearchBox==='function') html+=fichaSearchBox(); /* busca também na tela inicial (celular) */
   html+=`<h1>${f.title}</h1>`+notifTag(f.num)+cityPanel((f.html||'').replace(/<[^>]+>/g,' ')+' '+(f.text||''));
   if(f.num!=null&&f.title!=='Referências e pendências'){
     html+=`<div class="subtabs" role="tablist"><button type="button" data-s="conduta" role="tab">Conduta</button><button type="button" data-s="presc" role="tab">Prescrição${hasInt?' <span class="pill" style="font-size:10px;padding:1px 6px">internação</span>':''}</button><button type="button" data-s="pront" role="tab">Prontuário</button></div>`;
@@ -5296,6 +5298,7 @@ function renderFicha(id){
   html+=`<div class="spane" data-p="pront" hidden>${prontCard(f).replace('<details class="card pront">','<details class="card pront" open>')}${typeof cidCard==='function'?cidCard(f.num):''}</div>`;
   html+=`</article>`;
   $('#main').innerHTML=html;
+  if(f===FICHAS[0]&&typeof fichaSearchInit==='function') fichaSearchInit();
   // mover blocos de prescrição da ficha para a aba Prescrição
   const pl=$('#presc-list'); let moved=0;
   $('#main').querySelectorAll('.ficha pre').forEach(pre=>{const prev=pre.previousElementSibling; const box=document.createElement('div'); if(prev&&prev.tagName==='P'&&/Prescri|Receita|Alta|prescri/i.test(prev.textContent)){box.appendChild(prev.cloneNode(true));prev.innerHTML=prev.innerHTML+' <a href="#" class="go-presc" style="font-size:13px">→ aba Prescrição</a>';} box.appendChild(pre.cloneNode(true)); pl.appendChild(box); pre.remove(); moved++;});
