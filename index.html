@@ -115,6 +115,7 @@ body.ecg-on .wrap{display:block}
 body.ecg-on main{max-width:none;padding:0}
 .ecgframe{display:block;width:100%;border:0;height:calc(100vh - var(--hh,61px));min-height:640px;background:var(--bg)}
 body.ecg-on #ch-fab,body.ecg-on #ch-panel{display:none!important}
+body.sem-claude #ch-fab,body.sem-claude #ch-pan{display:none!important}
 .modechip{display:inline-block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);margin-bottom:6px}
 .fig{margin:0}.fig svg{width:100%;max-width:560px;height:auto;display:block;font-family:var(--f-body)}.fig figcaption{font-size:13px;color:var(--muted);margin-top:6px;max-width:70ch}
 .tabs{flex-wrap:wrap}
@@ -5607,9 +5608,9 @@ try{const s=JSON.parse(store.get('fp_pt')||'null'); if(s){$('#peso').value=s.w;$
 $('#mode-ubs').addEventListener('click',()=>{ if(ecgOn()){ location.hash='inicio'; } setMode('ubs'); });
 $('#mode-pa').addEventListener('click',()=>{ if(ecgOn()){ location.hash='inicio'; } setMode('pa'); });
 $('#mode-ecg').addEventListener('click',()=>{ location.hash='ecg'; });
-/* ECG só aparece dentro do Claude (onde a leitura por foto funciona). No site e no arquivo offline fica escondido. */
+/* ECG e "Perguntar às fichas" só aparecem dentro do Claude (onde a leitura por foto funciona). No site e no arquivo offline fica escondido. */
 function inClaude(){ try{ return !!(window.claude && window.claude.use); }catch(e){ return false; } }
-(function ecgGate(){ const b=$('#mode-ecg'); const show=v=>{ b.style.display=v?'':'none'; };
+(function ecgGate(){ const b=$('#mode-ecg'); const show=v=>{ b.style.display=v?'':'none'; document.body.classList.toggle('sem-claude',!v); };
   show(inClaude()); let n=0;
   const t=setInterval(()=>{ if(inClaude()){ show(true); clearInterval(t); return; }
     if(++n>=24){ clearInterval(t); show(false); if(decodeURIComponent(location.hash.slice(1))==='ecg') location.hash='inicio'; } },250); })();
