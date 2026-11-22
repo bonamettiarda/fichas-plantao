@@ -180,6 +180,8 @@ header.bar{padding:10px 16px 0;box-shadow:0 1px 0 var(--line),0 6px 18px -14px r
 .tabs[hidden]{display:none}
 .tabs button{border:1px solid var(--line);background:var(--panel);padding:6px 14px;border-radius:99px;cursor:pointer;font-size:14px;transition:border-color .15s,background .15s}
 .tabs button:hover{border-color:var(--accent)}
+.tabs a.extab{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);padding:6px 14px;border-radius:99px;font-size:14px;text-decoration:none;white-space:nowrap;align-self:center}
+.tabs a.extab:hover{background:var(--accent);color:#fff}
 .tabs button[aria-selected="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 nav.idx{top:var(--hh,61px);height:calc(100vh - var(--hh,61px))}
 .card{box-shadow:0 1px 2px rgba(11,40,45,.04)}
@@ -237,6 +239,7 @@ main{margin:0 auto 0 0}
       <button role="tab" class="ltab" data-ubs="1" data-h="ficha-101" aria-selected="false">Hanseníase</button>
       <button role="tab" class="ltab" data-h="notificacao" aria-selected="false">🔔 Notificação</button>
       <button role="tab" id="tab-orient" aria-selected="false">Orientações ao paciente</button>
+      <a class="extab" href="guia-atb.html" title="Guia de antibióticos: escalonar, descalonar, por infecção">💊 Guia ATB</a>
     </div>
     <div class="tgrp" data-g="emerg" hidden>
       <button role="tab" id="tab-proc" aria-selected="false">Procedimentos</button>
