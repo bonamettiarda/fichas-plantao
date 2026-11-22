@@ -13,7 +13,7 @@
 
 ## 1. Antes de começar: dar ou não dar antibiótico?
 
-O primeiro escalonamento a evitar é o antibiótico que não precisava ser iniciado. A tabela abaixo reúne as situações em que o curso e as diretrizes **não indicam ATB**, ou indicam só em condições específicas.
+O primeiro escalonamento a evitar é o antibiótico que não precisava ser iniciado. A tabela abaixo reúne as situações em que as diretrizes **não indicam ATB**, ou indicam só em condições específicas.
 
 | Situação | Conduta |
 |---|---|
@@ -402,4 +402,4 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 | Azitromicina para a parceria na DIP | 500 mg | 1 g (PCDT/CDC) |
 
 ## 8. Fontes
-IDSA/ATS 2019 (PAC); IDSA/ATS 2016 (PAH/PAV); IDSA 2010 (cistite e pielonefrite); IDSA 2014 (pele e partes moles); IDSA/SHEA 2017 e 2021 (C. difficile); IDSA 2009 (ICS por cateter); IDSA 2016 (candidíase); IDSA 2024 (guidance de Gram− resistentes); ESC 2023 (endocardite); SSC 2021 (sepse); Tóquio 2018 (vias biliares); ACCP 2000 e BTS 2023 (derrame pleural); AAP 2013 (OMA); AAAAI/ACAAI 2022 (alergia a fármacos); PCDT IST/MS; ESCMID 2016 e IDSA 2004 (meningite); STOP-IT (NEJM 2015); MERINO (JAMA 2018); CAPE COD (NEJM 2023). REMUME Goioerê 2022.
+IDSA/ATS 2019 (PAC); IDSA/ATS 2016 (PAH/PAV); IDSA 2010 (cistite e pielonefrite); IDSA 2014 (pele e partes moles); IDSA/SHEA 2017 e 2021 (C. difficile); IDSA 2009 (ICS por cateter); IDSA 2016 (candidíase); IDSA 2024 (guidance de Gram− resistentes); ESC 2023 (endocardite); SSC 2026 (sepse); Tóquio 2018 (vias biliares); ACCP 2000 e BTS 2023 (derrame pleural); AAP 2013 (OMA); AAAAI/ACAAI 2022 (alergia a fármacos); PCDT IST/MS; ESCMID 2016 e IDSA 2004 (meningite); STOP-IT (NEJM 2015); MERINO (JAMA 2018); CAPE COD (NEJM 2023). REMUME Goioerê 2022.
