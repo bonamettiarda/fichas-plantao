@@ -2,7 +2,7 @@
 
 **Uso profissional. Não substitui o julgamento clínico, a bula nem o protocolo da CCIH do serviço.** Antes de prescrever, conferir dose, peso, função renal, alergias e gestação.
 
-- **Versão:** 22/11/2026 (auditado em 22/11/2026: IDSA 2025 de ITU complicada, ESC 2023, IDSA 2024, CDC 2021).
+- **Versão:** 22/11/2026 (auditado em 22/11/2026: IDSA 2025 de ITU complicada, ESC 2023, IDSA 2024, CDC 2021; doses de adulto conferidas no WeMEDS SmartBulas, com as divergências indicadas no texto).
 - **Base:** diretrizes nacionais e internacionais (PCDT/MS, IDSA, ATS/IDSA, ESC, SSC, AAP; lista na seção 8). As doses são de adulto com função renal normal, salvo indicação. **Pediatria: sempre por peso, com dupla checagem.**
 - **Disponibilidade:** a coluna "Goioerê" usa a REMUME 2022 de Goioerê (lista antiga; confirmar na farmácia).
   - ✓ = dispensado na Farmácia Básica Central e na Vila Guaíra;
@@ -229,7 +229,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 ### 5.1 Vias aéreas superiores
 | Infecção | Quando tratar | 1ª escolha | Alternativa / alergia | Duração | Goioerê |
 |---|---|---|---|---|---|
-| **Rinossinusite bacteriana** | piora após melhora ("dupla piora"), sem melhora após 10 dias, ou piora progressiva; **leve a moderada pode ficar sem ATB** | **amoxicilina 500 mg 8/8h** (até 4 g/dia se houver risco de pneumococo resistente) | amoxicilina-clavulanato; alergia não grave: cefuroxima; outras: doxiciclina, levo, claritro | 5–7 d | amoxicilina ✓; amoxicilina-clavulanato ✓ (500/125 8/8h) |
+| **Rinossinusite bacteriana** | piora após melhora ("dupla piora"), sem melhora após 10 dias, ou piora progressiva; **leve a moderada pode ficar sem ATB** | **amoxicilina 500 mg 8/8h** (até 4 g/dia se houver risco de pneumococo resistente; o WeMEDS limita a 3 g/dia) | amoxicilina-clavulanato; alergia não grave: cefuroxima; outras: doxiciclina, levo, claritro | 5–7 d | amoxicilina ✓; amoxicilina-clavulanato ✓ (500/125 8/8h) |
 | **Faringite por SGA** | Centor ≥ 4, ou Centor 2–3 com teste positivo | **penicilina G benzatina 1.200.000 UI IM dose única** (≤ 27 kg: 600.000) ou **amoxicilina 500 mg 12/12h** (ou 1 g/dia) | alergia não IgE: cefalexina 500 mg 12/12h; **anafilaxia: azitromicina 500 mg D1 + 250 mg D2–D5**; macrolídeo-resistente: clindamicina 300 mg 8/8h | 10 d | benzatina ✓; amoxicilina ✓; cefalexina ✓; azitromicina ✓ |
 | **OMA no adulto** | **sempre** | **amoxicilina-clavulanato 875/125 mg 12/12h** | cefuroxima, ceftriaxona, amoxicilina; alergia grave: doxiciclina, macrolídeo, quinolona | 5–7 d (10 se grave) | 875 não consta → **500/125 mg 8/8h** ✓ |
 | **Conjuntivite bacteriana** | secreção purulenta | colírio de ATB; **quinolona se usa lente de contato** | — | 5–7 d | gentamicina colírio ✓ |
@@ -256,7 +256,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 ### 5.3 Trato urinário
 | Cenário | Esquema | Duração | Goioerê |
 |---|---|---|---|
-| **Cistite não complicada** (mulher não grávida) | **nitrofurantoína 100 mg 6/6h** ou fosfomicina 3 g dose única | 5 d / DU | nitrofurantoína ✓; fosfomicina ✗ |
+| **Cistite não complicada** (mulher não grávida) | **nitrofurantoína 100 mg 6/6h** ou fosfomicina 3 g dose única | 5 d / DU (WeMEDS e bula: nitrofurantoína por 7–10 d; as diretrizes usam 5) | nitrofurantoína ✓; fosfomicina ✗ |
 | Cistite (alternativas) | SMX-TMP 800/160 mg 12/12h (se a resistência local for < 20%); norfloxacino | 3 d | **SMX-TMP 400/80: 2 cp 12/12h** ✓ |
 | **Pielonefrite ambulatorial** | **ceftriaxona 1 g IV ou IM (dose inicial)** + **ciprofloxacino 500 mg 12/12h** | 5–7 d (cipro) / 7 d (beta-lactâmico), se melhorar (IDSA 2025) | ceftriaxona ✓; cipro ✓ |
 | Pielonefrite internada | ceftriaxona 1 g/dia IV; se houver risco de ESBL: ertapenem ou meropenem; passar para VO pela cultura assim que melhorar | 7 d (5–7 se quinolona) | — |
@@ -276,7 +276,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 | **PBE** (PMN ≥ 250) | **ceftriaxona** (1–2 g/dia) ou cefotaxima 2 g 8/8h; nosocomial: pip-tazo ou meropenem | 5–7 (até 10) d | **albumina 1,5 g/kg no D1 e 1 g/kg no D3** se Cr > 1 ou BT > 4; profilaxia secundária para sempre |
 | **Colecistite / colangite** leves | amoxicilina-clavulanato **ou** cipro + metronidazol | colecistectomia precoce: 1–3 d; colangite drenada: 4–5 d | **drenar a colangite** (grau III < 24 h) |
 | Colecistite / colangite moderadas a graves | ceftriaxona + metronidazol ou pip-tazo (Tóquio 2018); meropenem se houver ESBL ou gravidade; **+ ampicilina ou vanco** se houver enterococo | — | — |
-| **Apendicite** não complicada | **profilaxia** em dose única 30–60 min antes: cefazolina 2 g + metronidazol (ou cefoxitina 2 g) | DU | — |
+| **Apendicite** não complicada | **profilaxia** em dose única 30–60 min antes: cefazolina 2 g (3 g se ≥ 120 kg; ASHP/IDSA 2013 — o WeMEDS traz 1 g) + metronidazol (ou cefoxitina 2 g) | DU | — |
 | Apendicite complicada | **ceftriaxona 1 g/dia + metronidazol 500 mg 8/8h** (grave: pip-tazo) | ~4 d após o controle do foco | — |
 | **Diverticulite** | Hinchey 0–Ia: pode ficar sem ATB. Ambulatorial: amoxicilina-clavulanato ou cipro + metronidazol. Internado: ceftriaxona + metronidazol | — | abscesso ≥ 4 cm → drenagem percutânea; Hinchey III–IV → cirurgia |
 
@@ -299,7 +299,7 @@ Esquemas conforme as diretrizes da seção 8. A coluna "Goioerê" mostra o que d
 ### 5.6 Osso e articulação
 | Infecção | Esquema | Duração |
 |---|---|---|
-| **Artrite séptica** | **artrocentese** + drenagem; **oxacilina 2 g 4/4h + ceftriaxona 1 g 12/12h** (MRSA: vanco); gonocócica: ceftriaxona 1 g/dia | 4 sem (gonocócica: 7–10 d) |
+| **Artrite séptica** | **artrocentese** + drenagem; **oxacilina 2 g 4/4h + ceftriaxona 1 g 12/12h** (o WeMEDS traz oxacilina até 1 g 4/4h; IDSA e ESC usam 2 g 4/4h na infecção grave) (MRSA: vanco); gonocócica: ceftriaxona 1 g/dia | 4 sem (gonocócica: 7–10 d) |
 | **Osteomielite aguda** (estável) | **esperar a biópsia ou a cultura**; empírico só se houver sepse, déficit neurológico ou extensão epidural: oxacilina (ou vanco) + ceftriaxona (preferível à gentamicina no idoso e no renal) | 4–6 sem (IV por ~7 d → VO) |
 | Osteomielite pós-traumática ou pé diabético | clindamicina + gentamicina (ou ceftriaxona ou cefepime); desbridamento | 4–6 sem |
 | Prótese ou implante | + rifampicina (nunca sozinha); retirar ou trocar a prótese | prolongada |
